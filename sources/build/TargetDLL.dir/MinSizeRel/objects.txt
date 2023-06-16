@@ -1,0 +1,3 @@
+C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel/core_pass.obj
+C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel/my.obj
+C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel/maths.obj

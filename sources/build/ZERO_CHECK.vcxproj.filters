@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\1a5df8e8f29628b81024fa2cbda0598b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7612A27-5173-39E8-9532-7C82CB84D4F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

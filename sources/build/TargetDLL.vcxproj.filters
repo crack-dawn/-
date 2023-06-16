@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills\core_pass.cpp">
+      <Filter>my_skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs\my.cpp">
+      <Filter>my_libs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\maths.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs\my.h">
+      <Filter>my_libs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\FilteredObject.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\PlayerTask.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\ball.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\basevision.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\constants.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\game_state.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\historylogger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\matchstate.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\maths.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\referee_commands.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\robot.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\vector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\worldmodel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="my_libs">
+      <UniqueIdentifier>{BF26ABC5-CA62-39AF-BE84-BEE9B5C19166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="my_skills">
+      <UniqueIdentifier>{0FDDD96F-DCC2-371E-8623-36D6A858DDF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{EAF4899C-5EE6-3EF8-96C5-989F30EE26B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿生成启动时间为 2023/6/4 20:48:29。
+     1>项目“C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\TargetDLL.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Building Custom Rule C:/Users/23841/Desktop/cmake_robocom_dll/sources/CMakeLists.txt
+       ClCompile:
+         D:\Daily Application\VS2013\VC\bin\CL.exe /c /IC:\Users\23841\Desktop\cmake_robocom_dll\sources\utils /IC:\Users\23841\Desktop\cmake_robocom_dll\sources\lib /IC:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs /IC:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills /IC:\Users\23841\Desktop\cmake_robocom_dll\sources /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D _WINDLL /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /D TargetDLL_EXPORTS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TargetDLL.dir\Debug\\" /Fd"TargetDLL.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  -m32 C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills\core_pass.cpp C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs\my.cpp C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\maths.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“-m32”
+         core_pass.cpp
+     1>D:\Daily Application\VS2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills\core_pass.cpp(6): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+                 c:\users\23841\desktop\cmake_robocom_dll\sources\utils\PlayerTask.h(30) : 参见“PlayerTask”的声明
+         my.cpp
+     1>D:\Daily Application\VS2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         maths.cpp
+     1>D:\Daily Application\VS2013\VC\include\xlocale(337): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         正在生成代码...
+       PreLinkEvent:
+         setlocal
+         cd C:\Users\23841\Desktop\cmake_robocom_dll\sources\build
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug/exports.def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug//objects.txt
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Link:
+         D:\Daily Application\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\Debug\hiahia.dll" /INCREMENTAL /NOLOGO ..\lib\worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /DEF:"C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug/exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL TargetDLL.dir\Debug\core_pass.obj
+         TargetDLL.dir\Debug\my.obj
+         TargetDLL.dir\Debug\maths.obj
+         worldmodel_lib.lib(worldmodel.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>worldmodel_lib.lib(worldmodel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(core_pass.obj 中)
+     1>worldmodel_lib.lib(worldmodel.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(core_pass.obj 中)
+     1>worldmodel_lib.lib(ball.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(core_pass.obj 中)
+     1>worldmodel_lib.lib(ball.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(core_pass.obj 中)
+     1>worldmodel_lib.lib(FilteredObject.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(core_pass.obj 中)
+     1>worldmodel_lib.lib(FilteredObject.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(core_pass.obj 中)
+            正在创建库 C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.lib 和对象 C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.exp
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\Debug\hiahia.dll : fatal error LNK1319: 检测到 6 个不匹配项
+     1>已完成生成项目“C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\TargetDLL.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.21

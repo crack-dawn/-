@@ -1,0 +1,169 @@
+EXPORTS 
+	??_R0?AV_Generic_error_category@std@@@8 	 DATA
+	??_R0?AV_Iostream_error_category@std@@@8 	 DATA
+	??_R0?AV_System_error_category@std@@@8 	 DATA
+	??_R0?AVerror_category@std@@@8 	 DATA
+	?Goal_Center_Left_One_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Center_Left_Two_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Center_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Center_Right_One_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Center_Right_Two_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Left_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Penalty_Area_L_Left@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Penalty_Area_L_Right@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Goal_Right_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Arc_Center_Left@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Arc_Center_Right@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Area_L_A@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Area_L_B@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Kick_Point@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Rectangle_Left@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?Penalty_Rectangle_Right@FieldPoint@@3V?$vector2d@M@Vector@@A 	 DATA
+	?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A 	 DATA
+	?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A 	 DATA
+	?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A 	 DATA
+	?id@?$num_put@DV?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@2V0locale@2@A 	 DATA
+	?id@?$num_put@_WV?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@std@@2V0locale@2@A 	 DATA
+	??$_Allocate@D@std@@YAPADIPAD@Z
+	??$addressof@D@std@@YAPADAAD@Z
+	??$angle_mod@M@@YAMM@Z
+	??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPADAAPAD@Z
+	??$construct@PADAAPAD@?$allocator@D@std@@QAEXPAPADAAPAD@Z
+	??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPADAAPAD@Z
+	??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPAD@Z
+	??$destroy@PAD@?$allocator@D@std@@QAEXPAPAD@Z
+	??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPAD@Z
+	??$dot@M@Vector@@YAMV?$vector2d@M@0@0@Z
+	??$forward@AAPAD@std@@YAAAPADAAPAD@Z
+	??$isnan@M@@YA_NM@Z
+	??$point_on_segment@V?$vector2d@M@Vector@@@Vector@@YA?AV?$vector2d@M@0@V10@00_N@Z
+	??0?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z
+	??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ
+	??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@XZ
+	??0?$allocator@D@std@@QAE@XZ
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z
+	??0?$vector2d@M@Vector@@QAE@MM@Z
+	??0?$vector2d@M@Vector@@QAE@XZ
+	??0PlayerTask@@QAE@ABV0@@Z
+	??0PlayerTask@@QAE@XZ
+	??0_Generic_error_category@std@@QAE@XZ
+	??0_Ignore@std@@QAE@XZ
+	??0_Iostream_error_category@std@@QAE@XZ
+	??0_System_error_category@std@@QAE@XZ
+	??0error_category@std@@QAE@XZ
+	??0error_condition@std@@QAE@HABVerror_category@1@@Z
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ
+	??1PlayerTask@@QAE@XZ
+	??1_Generic_error_category@std@@UAE@XZ
+	??1_Iostream_error_category@std@@UAE@XZ
+	??1_System_error_category@std@@UAE@XZ
+	??1error_category@std@@UAE@XZ
+	??2@YAPAXIPAX@Z
+	??4?$vector2d@M@Vector@@QAEAAV01@V01@@Z
+	??8error_category@std@@QBE_NABV01@@Z
+	??8error_condition@std@@QBE_NABV01@@Z
+	??A?$vector@V?$vector2d@M@Vector@@V?$allocator@V?$vector2d@M@Vector@@@std@@@std@@QBEABV?$vector2d@M@Vector@@I@Z
+	??D?$vector2d@M@Vector@@QBE?AV01@M@Z
+	??G?$vector2d@M@Vector@@QBE?AV01@V01@@Z
+	??H?$vector2d@M@Vector@@QBE?AV01@V01@@Z
+	??_H@YGXPAXIHP6EPAX0@Z@Z
+	??_I@YGXPAXIHP6EX0@Z@Z
+	?BallMoveDir@@YA?BMHH@Z
+	?BallSpeed@@YA?BMHH@Z
+	?DIR@@YAMM@Z
+	?GetOppGoalieID@@YAHPBVWorldModel@@H@Z
+	?GetOppGoaliePos@@YA?BV?$vector2d@M@Vector@@PBVWorldModel@@H@Z
+	?GetReceverID@@YAHPBVWorldModel@@H@Z
+	?KickDir@@YA?BMV?$vector2d@M@Vector@@00@Z
+	?Reverse_Dir@@YAMM@Z
+	?RunOnCircleDir@@YAMMMM@Z
+	?RunToCircleDir@@YAMMM@Z
+	?SetPassPower@@YAMM@Z
+	?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z
+	?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z
+	?_Getal@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBE?AU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ
+	?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z
+	?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NPBD@Z
+	?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ
+	?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ
+	?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ
+	?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ
+	?abs@@YAMM@Z
+	?across_point@Maths@@YA?AV?$vector2d@M@Vector@@ABV23@000@Z
+	?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEPADI@Z
+	?allocate@?$allocator@D@std@@QAEPADI@Z
+	?angle@?$vector2d@M@Vector@@QBEMXZ
+	?archimedes_spiral@Maths@@YA?AV?$vector2d@M@Vector@@ABV23@M0M@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z
+	?assign@?$char_traits@D@std@@SAXAADABD@Z
+	?atan2@@YAMMM@Z
+	?atan2fCorrect@@YAMM@Z
+	?atan@@YAMM@Z
+	?block_shoot@Maths@@YA_NPBVWorldModel@@ABV?$vector2d@M@Vector@@1AAH@Z
+	?category@error_code@std@@QBEABVerror_category@2@XZ
+	?category@error_condition@std@@QBEABVerror_category@2@XZ
+	?circle_move@Maths@@YAXPBVWorldModel@@ABHAAVPlayerTask@@ABV?$vector2d@M@Vector@@3ABM4@Z
+	?circle_segment_intersection@Maths@@YA?AV?$vector2d@M@Vector@@ABV23@N0@Z
+	?copy@?$char_traits@D@std@@SAPADPADPBDI@Z
+	?cos@@YAMM@Z
+	?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPADI@Z
+	?deallocate@?$allocator@D@std@@QAEXPADI@Z
+	?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z
+	?default_error_condition@error_category@std@@UBE?AVerror_condition@2@H@Z
+	?equivalent@error_category@std@@UBE_NABVerror_code@2@H@Z
+	?equivalent@error_category@std@@UBE_NHABVerror_condition@2@@Z
+	?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@I@Z
+	?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z
+	?fabs@@YAMM@Z
+	?fpclassify@@YAHM@Z
+	?generic_category@std@@YAABVerror_category@1@XZ
+	?getLogger@?$HistoryLogger@VBallVision@@@@QAEAAVBallVision@@H@Z
+	?get_ball_pos@WorldModel@@QBEABV?$vector2d@M@Vector@@XZ
+	?get_opp_exist_id@WorldModel@@QBEPB_NXZ
+	?get_opp_goalie@WorldModel@@QBEHXZ
+	?get_our_exist_id@WorldModel@@QBEPB_NXZ
+	?get_our_goalie@WorldModel@@QBEHXZ
+	?get_pos@Ball@@QAEABV?$vector2d@M@Vector@@H@Z
+	?get_pos@Ball@@QAEABV?$vector2d@M@Vector@@XZ
+	?in_range@Maths@@YA_NABV?$vector2d@M@Vector@@00@Z
+	?is_inside_penatly@Maths@@YA_NABV?$vector2d@M@Vector@@@Z
+	?least_squares@Maths@@YAMABV?$vector@V?$vector2d@M@Vector@@V?$allocator@V?$vector2d@M@Vector@@@std@@@std@@@Z
+	?length@?$char_traits@D@std@@SAIPBD@Z
+	?length@?$vector2d@M@Vector@@QBEMXZ
+	?line_perp_across@Maths@@YA?AV?$vector2d@M@Vector@@ABV23@M0@Z
+	?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QBEIXZ
+	?max_size@?$allocator@D@std@@QBEIXZ
+	?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z
+	?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ
+	?message@_Generic_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?message@_Iostream_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?move@?$char_traits@D@std@@SAPADPADPBDI@Z
+	?my_limite@@YAMMMM@Z
+	?name@_Generic_error_category@std@@UBEPBDXZ
+	?name@_Iostream_error_category@std@@UBEPBDXZ
+	?name@_System_error_category@std@@UBEPBDXZ
+	?normalize@Maths@@YAMM@Z
+	?set@?$vector2d@M@Vector@@QAEXV12@@Z
+	?sign@Maths@@YAHM@Z
+	?sin@@YAMM@Z
+	?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ
+	?size@?$vector@V?$vector2d@M@Vector@@V?$allocator@V?$vector2d@M@Vector@@@std@@@std@@QBEIXZ
+	?sqlength@?$vector2d@M@Vector@@QBEMXZ
+	?sqrt@@YAMM@Z
+	?system_category@std@@YAABVerror_category@1@XZ
+	?value@error_code@std@@QBEHXZ
+	?value@error_condition@std@@QBEHXZ
+	?vector2polar@Maths@@YA?AV?$vector2d@M@Vector@@MM@Z
+	?vector_angle@Maths@@YAMABV?$vector2d@M@Vector@@00@Z
+	atan2f
+	atanf
+	cosf
+	fabsf
+	hypot
+	player_plan
+	sinf
+	sqrtf

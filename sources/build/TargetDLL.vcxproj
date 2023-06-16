@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9D5451E-4B1C-3266-8CC1-981A8D0E0587}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>TargetDLL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TargetDLL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hiahia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TargetDLL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hiahia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TargetDLL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">hiahia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build_output\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TargetDLL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">hiahia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);CMAKE_INTDIR="Debug";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\23841\Desktop\cmake_robocom_dll\sources\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug/exports.def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\worldmodel_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Debug/hiahia.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;CMAKE_INTDIR="Release";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"Release\";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\23841\Desktop\cmake_robocom_dll\sources\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Release/exports.def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\worldmodel_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Release/hiahia.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/Release/hiahia.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;CMAKE_INTDIR="MinSizeRel";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\23841\Desktop\cmake_robocom_dll\sources\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel/exports.def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\worldmodel_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/MinSizeRel/hiahia.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/MinSizeRel/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/MinSizeRel/hiahia.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;CMAKE_INTDIR="RelWithDebInfo";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";TargetDLL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils;C:\Users\23841\Desktop\cmake_robocom_dll\sources\lib;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs;C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills;C:\Users\23841\Desktop\cmake_robocom_dll\sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\23841\Desktop\cmake_robocom_dll\sources\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/RelWithDebInfo/exports.def C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\worldmodel_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/RelWithDebInfo/hiahia.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/TargetDLL.dir/RelWithDebInfo/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/23841/Desktop/cmake_robocom_dll/sources/build_output/RelWithDebInfo/hiahia.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/23841/Desktop/cmake_robocom_dll/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/23841/Desktop/cmake_robocom_dll/sources -BC:/Users/23841/Desktop/cmake_robocom_dll/sources/build --check-stamp-file C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCXXCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeRCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeSystem.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\feature_tests.cxx;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompilerABI.c;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystem.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/23841/Desktop/cmake_robocom_dll/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/23841/Desktop/cmake_robocom_dll/sources -BC:/Users/23841/Desktop/cmake_robocom_dll/sources/build --check-stamp-file C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCXXCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeRCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeSystem.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\feature_tests.cxx;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompilerABI.c;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystem.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/23841/Desktop/cmake_robocom_dll/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/23841/Desktop/cmake_robocom_dll/sources -BC:/Users/23841/Desktop/cmake_robocom_dll/sources/build --check-stamp-file C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCXXCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeRCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeSystem.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\feature_tests.cxx;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompilerABI.c;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystem.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/23841/Desktop/cmake_robocom_dll/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Python310\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/23841/Desktop/cmake_robocom_dll/sources -BC:/Users/23841/Desktop/cmake_robocom_dll/sources/build --check-stamp-file C:/Users/23841/Desktop/cmake_robocom_dll/sources/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeCXXCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeRCCompiler.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\3.22.4\CMakeSystem.cmake;C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\feature_tests.cxx;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCCompilerABI.c;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystem.cmake.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Python310\Lib\site-packages\cmake\data\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\other_skills\demo_kick.cpp" />
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_skills\core_pass.cpp" />
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs\my.cpp" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\my_libs\my.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\FilteredObject.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\PlayerTask.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\ball.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\basevision.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\constants.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\game_state.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\historylogger.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\matchstate.h" />
+    <ClCompile Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\maths.cpp" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\maths.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\referee_commands.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\robot.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\singleton.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\util.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\vector.h" />
+    <ClInclude Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\utils\worldmodel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\23841\Desktop\cmake_robocom_dll\sources\build\ZERO_CHECK.vcxproj">
+      <Project>{F1F11352-6316-3A3A-99D4-F334C13C9458}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
