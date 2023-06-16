@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
+
+# .sln解决方案名称
 project(export_dll)
 
 
@@ -13,7 +15,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-# 添加头文件搜索路径
+# 添加头文件搜索路径，在这个路径内的头文件被#include 时，不在需要使用相对路径，可以直接包含 #include "worldmodel.h"
 list(APPEND INCLUDE_DIR
     "${CMAKE_CURRENT_SOURCE_DIR}/utils"
 
@@ -80,18 +82,21 @@ set_target_properties(TargetDLL PROPERTIES OUTPUT_NAME "hiahia")
 set_target_properties(TargetDLL PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 
-# 设置编译为库类型的 TargetDLL 的属性 生成目录
+# 设置编译为库类型的 TargetDLL 的属性 生成目录，
+# ${CMAKE_SOURCE_DIR}所在的目录位置
+set(OUTPUT_DIRECTORY
+    ${CMAKE_SOURCE_DIR}/build_output
+)
 set_target_properties(TargetDLL PROPERTIES 
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build_output  # 动态库         这里我需要的是最后的 DLL 动态库文件
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build_output  # 可执行文件
-    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build_output  # 静态库
+    LIBRARY_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}  # 动态库         这里我需要的是最后的 DLL 动态库文件
+    RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}   # 可执行文件
+    ARCHIVE_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}   # 静态库
 )
 
 
 # mkdir build 
 # cd build  
 # cmake ..               <path-to-cmake>\cmake.exe -G "Visual Studio 12 2013" <path-to-source>
-# ls 查看生成目录
 #
 
 
@@ -103,16 +108,12 @@ set_target_properties(TargetDLL PROPERTIES
 
 
 
+### 一下为自己的一些调试注释--------------------------------------------
+
 
 # # 打印 INCLUDE_DIR 变量的值
 # message("INCLUDE_DIR:" ${INCLUDE_DIR})
 
-
-
-# include_directories(inc)
-# include_directories(src)
-# include_directories(utils)
-# include_directories(./)
 
 # # 定义需要编译的源文件列表
 # set(ALL_SOURCE_FILES
