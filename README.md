@@ -26,3 +26,12 @@ set(OUTPUT_DIRECTORY
 ```
 
 4. Release 模式下进行生成任务才会成功。
+
+
++ other_skills 没有添加入项目构建中，后续如果需要使用，在MSVC项目视图中添加；
++ my_libs 为自定义函数库
++ lib 为worldmodellib.lib 静态库文件
++ utils 为worldmodellib.lib 的相关接口声明的头文件
++ build 为cmake构建MSVC项目sln目录
++ build_output 为MSVC项目默认输出dll路径
++ CMakeLists.txt 为cmake构建MSVC的规则文件
